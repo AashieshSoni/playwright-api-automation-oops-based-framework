@@ -1,6 +1,60 @@
 # playwright-api-automation-oops-based-framework
 playwright-api-automation-oops-based-framework
 
+Coverage Included
+
+Authentication & Authorization
+
+OAuth2 Client Credentials
+JWT Token Management
+API Key Authentication
+API Key Authorization
+RBAC Authorization Matrix
+
+Validation
+
+200, 201, 204
+400, 401, 403, 404
+409, 422, 429
+500, 501, 503
+AJV Schema Validation
+Correlation ID Validation
+Security Header Validation
+
+CRUD Testing
+
+Get User
+Create User
+Update User (PUT/PATCH)
+Delete User
+Positive Scenarios
+Negative Scenarios
+Invalid Data Scenarios
+
+Resilience
+
+Retry Strategy
+Circuit Breaker
+Chaos Testing
+Dependency Failure Testing
+Timeout Simulation
+Rate Limiting Validation
+
+Monitoring
+
+Canary API Validation
+SLA Latency Validation
+Availability Validation
+Production Monitoring Suite
+
+Security
+
+OWASP API Top 10 Coverage
+Broken Object Level Authorization
+Broken Authentication
+Excessive Data Exposure
+Security Misconfiguration
+Unsafe Consumption
 
 the repository should contain approximately the following structure:
 
