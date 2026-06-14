@@ -1,0 +1,5 @@
+{
+  "name":"playwright-api-enterprise",
+  "scripts":{"test":"playwright test","allure":"allure serve allure-results"},
+  "devDependencies":{"@playwright/test":"latest","ajv":"latest"}
+}
