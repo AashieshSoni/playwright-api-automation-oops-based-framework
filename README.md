@@ -1,9 +1,7 @@
-# playwright-api-automation-oops-based-framework
-playwright-api-automation-oops-based-framework
+## playwright-api-automation-oops-based-framework
 
 Coverage Included
-
-Authentication & Authorization
+#1 Authentication & Authorization
 
 OAuth2 Client Credentials
 JWT Token Management
@@ -11,7 +9,7 @@ API Key Authentication
 API Key Authorization
 RBAC Authorization Matrix
 
-Validation
+#2 Validation - response status code
 
 200, 201, 204
 400, 401, 403, 404
@@ -21,7 +19,7 @@ AJV Schema Validation
 Correlation ID Validation
 Security Header Validation
 
-CRUD Testing
+#3. CRUD Testing
 
 Get User
 Create User
