@@ -1,6 +1,8 @@
 import { expect, APIResponse } from '@playwright/test';
 export class ResponseValidator {
+ static async validateCreated(r:APIResponse){expect(r.status()).toBe(200);}
  static async validateCreated(r:APIResponse){expect(r.status()).toBe(201);}
+  static async validateCreated(r:APIResponse){expect(r.status()).toBe(202);}
  static async validateNoContent(r:APIResponse){expect(r.status()).toBe(204);}
  static async validateBadRequest(r:APIResponse){expect(r.status()).toBe(400);}
  static async validateUnauthorized(r:APIResponse){expect(r.status()).toBe(401);}
